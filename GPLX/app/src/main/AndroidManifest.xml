@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ngonphikp.gplx">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.CTHocActivity"/>
+        <activity android:name=".Activity.CTThiAcivity" />
+        <activity android:name=".Activity.CTMTActivity" />
+        <activity android:name=".Activity.LuatActivity" />
+        <activity android:name=".Activity.TCLActivity" />
+        <activity android:name=".Activity.MTActivity" />
+        <activity android:name=".Activity.CCSActivity" />
+        <activity android:name=".Activity.SetUpGPLXActivity" />
+        <activity android:name=".Activity.TSHActivity" />
+        <activity android:name=".Activity.HLTActivity" />
+        <activity android:name=".Activity.BBDBActivity" />
+        <activity android:name=".Activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
